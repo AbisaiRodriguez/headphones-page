@@ -1,16 +1,16 @@
 header {
     padding: 45px 20px;
-    background: white;
+    margin-bottom: 50px;
 }
 
-header::after {
+header:after {
     content: "";
     display: table;
     clear: both;
 }
 
 header a {
-    color: #4C44C1;
+    color: #6066F2;
     text-decoration: none;
 }
 
@@ -46,7 +46,7 @@ header .header-buttons {
 }
 
 header .header-buttons .blue-btn{
-    background: #4C44C1;
+    background: #6066F2;
     color: white;
     padding: 14px 46px;
     border-radius: 35px;

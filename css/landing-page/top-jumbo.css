@@ -1,0 +1,99 @@
+#top-jumbo {
+    padding: 0 0 400px;
+    background: #ffffff; /* Old browsers */
+background: -moz-linear-gradient(-45deg, #ffffff 0%, #ffffff 38%, #b37bf7 64%, #fc9fe9 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg, #ffffff 0%,#ffffff 38%,#b37bf7 64%,#fc9fe9 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg, #ffffff 0%,#ffffff 38%,#b37bf7 64%,#fc9fe9 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+#top-jumbo::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#top-jumbo .left-side {
+    width: 40%;
+    display: inline-block;
+    float: left;
+}
+
+#top-jumbo .left-side .large-number {
+    font-size: 300px;
+    font-weight: 700;
+    opacity: .1;
+    color: #4C44C1;
+    position: relative;
+    left: -22px;
+    top: 45px;
+    z-index: 1;
+}
+
+#top-jumbo .left-side .info-container{
+    position: relative;
+    top: -80px;
+}
+
+#top-jumbo .left-side .info-container h1{
+    color: #6066F2;
+    font-size: 4.2rem;
+    text-transform: capitalize;
+    margin-bottom: 1.5rem;
+    line-height: 1.1;
+}
+
+#top-jumbo .left-side .info-container p{
+    color: #aaacaf;
+    line-height: 1.5;
+    font-size: 1.3rem;
+    margin-bottom: 1.5rem;
+}
+
+#top-jumbo .left-side .info-container .email-area{
+    background: white;
+    border-radius: 35px;
+    display: inline-block;
+    padding: 10px;
+    -webkit-box-shadow: 0px 17px 40px -5px rgba(0,0,0,0.3);
+    -moz-box-shadow: 0px 17px 40px -5px rgba(0,0,0,0.3);
+    box-shadow: 0px 17px 40px -5px rgba(0,0,0,0.3);
+}
+
+#top-jumbo .left-side .info-container .email-area .fas{
+    color: #aaacaf;
+    font-size: 1.2rem;
+    margin-left: 10px;
+}
+
+#top-jumbo .left-side .info-container .email-area input{
+    outline: none;
+    text-decoration: none;
+    border: none;
+    font-size: 14px;
+    margin: 0 45px 0 5px;
+    color: #aaacaf;
+    width: 200px;
+}
+
+#top-jumbo .left-side .info-container .email-area input::placeholder{
+    color: #aaacaf;
+}
+
+#top-jumbo .left-side .info-container .email-area button{
+    background: #6066F2;
+    padding: 20px 40px;
+    color: white;
+    font-size: 1rem;
+    border-radius: 35px;
+    text-transform: uppercase;
+}
+
+#top-jumbo .right-side {
+    width: 60%;
+    display: inline-block;
+    float: left;
+}
+
+#top-jumbo .right-side img{
+    width: 100%;
+}

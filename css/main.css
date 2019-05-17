@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap');
 @import "reset.css";
 @import "landing-page/header.css";
-
+@import "landing-page/top-jumbo.css";
 /*  
     #FEA83B orange
     #6066F2 light blue
@@ -9,3 +9,9 @@
     #4C44C1 blue
     #E6CDF9 light purple
 */
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
