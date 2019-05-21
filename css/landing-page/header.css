@@ -53,9 +53,6 @@ header .header-buttons .blue-btn{
     text-decoration: none;
     text-transform: uppercase;
     margin-right: 15px;
-    -webkit-box-shadow: 0px 17px 40px -5px rgba(0,0,0,0.3);
-    -moz-box-shadow: 0px 17px 40px -5px rgba(0,0,0,0.3);
-    box-shadow: 0px 17px 40px -5px rgba(0,0,0,0.3);
 }
 
 header .header-buttons .blue-btn .fas{
@@ -69,7 +66,5 @@ header .header-buttons .orange-btn{
     border-radius: 35px;
     text-decoration: none;
     text-transform: uppercase;
-    -webkit-box-shadow: 0px 17px 40px -5px rgba(0,0,0,0.3);
-    -moz-box-shadow: 0px 17px 40px -5px rgba(0,0,0,0.3);
-    box-shadow: 0px 17px 40px -5px rgba(0,0,0,0.3);
+    
 }
