@@ -1,26 +1,42 @@
 #design-by {
     position: relative;
-    top: -100px;
+    top: -200px;
 }
 
 #design-by .design-container{
     position: relative;
+    background: white;
+    overflow: hidden;
+    border-radius: 7px;
+}
+
+#design-by .design-container .bg-container{
+    position: relative;
+    background: #6066F2;
+    overflow: hidden;
+    padding: 45px;
+}
+
+#design-by .design-container:after {
+    content: "";
+    display: table;
+    clear: both;
 }
 
 #design-by .design-container .bg-image{
     position: absolute;
-    width: 500px;
-    z-index: 0;
+    width: 600px;
+    z-index: 1;
+    opacity: .3;
+    right: -200px;
+    top: -100px;
 }
 
 #design-by .design-container .info-section{
-    background: #6066F2;
     width: 40%;
     display: inline-block;
     float: left;
-    padding: 45px;
-    position: relative;
-    z-index: 2;
+
 }
 
 #design-by .design-container .info-section h5{
@@ -28,16 +44,22 @@
     font-size: 1.4rem;
     text-transform: uppercase;
     margin-bottom: 2rem;
+    position: relative;
+    z-index: 2;
 }
 
 #design-by .design-container .info-section h3{
-   color: white;
-   font-size: 2.7rem;
-   margin-bottom: 2rem;
+    color: white;
+    font-size: 2.7rem;
+    margin-bottom: 2rem;
+    position: relative;
+    z-index: 2;
 }
 
 #design-by .design-container .info-section .info-list{
     margin-bottom: 4rem;
+    position: relative;
+    z-index: 2;
  }
 
  #design-by .design-container .info-section .info-list .circle{
@@ -62,7 +84,7 @@
     color: white;
     font-size: 1rem;
     font-weight: 400;
-    margin-bottom: 15px;
+    margin-bottom: 14.5px;
     vertical-align: top;
  }
 
@@ -75,6 +97,8 @@
     font-weight: 700;
     font-size: 1rem;
     display: inline-block;
+    position: relative;
+    z-index: 2;
 }
 
 #design-by .design-container .icon-section{
@@ -82,4 +106,40 @@
     background: white;
     display: inline-block;
     float: left;
+    position: relative;
+}
+
+#design-by .design-container .icon-section .refresh-circle{
+    position: absolute;
+    left: 44.5%;
+    top: 40%;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: white;
+}
+
+#design-by .design-container .icon-section .refresh-circle .fas{
+    position: relative;
+    color: #FEA83B;
+    font-size: 2.5rem;
+    top: 20px;
+    left: 20px;
+}
+
+#design-by .design-container .icon-section .icon-box{
+    width: 50%;
+    height: 226px;
+    display: inline-block;
+    float: left;
+    text-align: center;
+    border: 1px solid #f4f5f7;
+    color: #6066F2;
+    font-size: 1.3rem;
+}
+
+#design-by .design-container .icon-section .icon-box .fas, #design-by .design-container .icon-section .icon-box .far{
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    margin-top: 61px;
 }
