@@ -114,3 +114,97 @@
     top: 22px;
     left: -3px;
 }
+
+#latest .body .column .line{
+    width: 20%;
+    height: 2px;
+    background: #6066F2;
+    margin: 50px auto;
+    display: inline-block;
+}
+
+#latest .body .column .price{
+    color: #FEA83B;
+    font-weight: 700;
+    font-size: 2.3rem;
+}
+
+#latest .footer{
+    text-align: center;
+    position: relative;
+}
+
+#latest .footer img{
+    width: 40%;
+    z-index: 1;  
+    position: absolute;
+    top: 0px;
+    left: 30%;
+    -webkit-filter: grayscale(100%) invert(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%) invert(100%);
+    opacity: .3;
+    transform: rotate(25deg);
+}
+
+#latest .footer .info-box{
+    position: relative;
+    z-index: 2;
+    padding: 200px 0;
+}
+
+#latest .footer .info-box h2{
+    color: #6066F2;
+    font-size: 4rem;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-bottom: 60px;
+}
+
+
+
+#latest .footer .info-box .input-area{
+    background: white;
+    border-radius: 50px;
+    display: inline-block;
+    padding: 10px;
+    margin: 0 10px;
+}
+
+#latest .footer .info-box .input-area:nth-of-type(1){
+    padding: 21px;
+}
+
+#latest .footer .info-box .input-area .fas{
+    color: #4C44C1;
+    opacity: .3;
+    font-size: 1.8rem;
+    position: relative;
+    top: 5px;
+    margin-left: 5px;
+}
+
+#latest .footer .info-box .input-area input {
+    outline: none;
+    text-decoration: none;
+    border: none;
+    font-size: 16px;
+    color: #4C44C1;
+    width: 230px;
+    background: white;
+    padding: 10px;
+}
+
+#latest .footer .info-box .input-area input::placeholder {
+    color: #4C44C1;
+    opacity: 0.7;
+}
+
+#latest .footer .info-box .input-area button{
+    background: #6066F2;
+    padding: 20px 40px;
+    color: white;
+    font-size: 1rem;
+    border-radius: 50px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
