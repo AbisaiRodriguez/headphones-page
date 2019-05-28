@@ -106,9 +106,74 @@
 }
 /* Tablets Devices*/
 @media only screen and (max-width: 1023px) {
-    
+    #blue-print {
+        padding: 100px 0;
+    }
+    #blue-print .container .left-side {
+        width: 50%;
+    }
+    #blue-print .container .right-side {
+        width: 50%;
+    }
+    #blue-print .container .right-side h1 {
+        font-size: 3rem;
+        text-align: left;
+    }
+    #blue-print .container .right-side .info-box .col-1 {
+        width: 40%;
+        float: left;
+        text-align: center;
+    }
+    #blue-print .container .right-side .info-box .col-1 .icon-container {
+        width: 120px;
+        height: 120px;
+        margin: 20px auto 0;
+    }
+    #blue-print .container .right-side .info-box .col-1 .icon-container .dashed-circle {
+        width: 90px;
+        height: 90px;
+    }
+    #blue-print .container .right-side .info-box .col-1 .icon-container .fab, #blue-print .container .right-side .info-box .col-1 .icon-container .fas {
+        font-size: 3rem;
+        top: 30px;
+        left: 40px;
+    }
 }
 /* Mobile Devices */
 @media only screen and (max-width: 767px) {
-    
+    #blue-print {
+        padding: 100px 0;
+    }
+    #blue-print img {
+        display: none;
+    }
+    #blue-print .container .left-side {
+        width: 100%;
+    }
+    #blue-print .container .right-side {
+        width: 100%;
+    }
+    #blue-print .container .right-side h1 {
+        font-size: 3rem;
+        text-align: center;
+    }
+    #blue-print .container .right-side .info-box .col-1 {
+        width: 40%;
+        float: left;
+        text-align: center;
+    }
+    #blue-print .container .right-side .info-box .col-1 .icon-container {
+        width: 120px;
+        height: 120px;
+        margin: 20px auto 0;
+    }
+    #blue-print .container .right-side .info-box .col-1 .icon-container .dashed-circle {
+        width: 90px;
+        height: 90px;
+    }
+    #blue-print .container .right-side .info-box .col-1 .icon-container .fab, #blue-print .container .right-side .info-box .col-1 .icon-container .fas {
+        font-size: 3rem;
+        top: 30px;
+        left: 40px;
+    }
 }
