@@ -174,7 +174,13 @@
 }
 /* Tablets Devices*/
 @media only screen and (max-width: 1023px) {
-    
+    #color-collection .right-side .col-1 {
+        text-align: center;
+    }
+    #color-collection .right-side .swatch-area .circle {
+        width: 50px;
+        height: 50px;
+    }
 }
 /* Mobile Devices */
 @media only screen and (max-width: 767px) {
