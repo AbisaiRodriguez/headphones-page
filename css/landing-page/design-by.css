@@ -150,11 +150,20 @@
 }
 /* Tablets Devices*/
 @media only screen and (max-width: 1023px) {
+    #design-by .design-container .info-section .info-list li {
+        line-height: 2;
+    }
     #design-by .design-container .icon-section .refresh-circle {
         left: 43%;
     }
 }
 @media only screen and (max-width: 833px) {
+    #design-by .design-container .info-section h3 {
+        font-size: 2.5rem;
+    }
+    #design-by .design-container .info-section .info-list li {
+        line-height: 2;
+    }
     #design-by .design-container .icon-section .refresh-circle {
         left: 41%;
     }

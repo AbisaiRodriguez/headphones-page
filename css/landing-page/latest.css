@@ -214,10 +214,136 @@
     
 }
 /* Tablets Devices*/
-@media only screen and (max-width: 1023px) {
-    
+@media only screen and (max-width: 1070px) {
+    #latest .header h1 {
+        font-size: 3.5rem;
+    }
+    #latest .header .directions {
+        top: 18px;
+    }
+    #latest .body {
+        padding: 100px 0;
+        padding-bottom: 0;
+    }
+    #latest .body .column {
+        width: 50%;
+        margin-bottom: 150px;
+    }
+    #latest .footer img {
+        width: 50%;
+        z-index: 1;
+        position: absolute;
+        top: 100px;
+        left: 30%;
+        -webkit-filter: grayscale(100%) invert(100%);
+        filter: grayscale(100%) invert(100%);
+        opacity: .3;
+        transform: rotate(25deg);
+    }
+    #latest .footer .info-box h2 {
+        color: #6066F2;
+        font-size: 3rem;
+        font-weight: 700;
+        text-transform: capitalize;
+        margin-bottom: 60px;
+    }
+}
+@media only screen and (max-width: 821px) {
+    #latest .header .directions {
+        top: -94px;
+    }
+    #latest .body {
+        padding: 100px 0;
+        padding-bottom: 0;
+    }
+    #latest .footer .info-box .input-area {
+        width: 100%;
+    }
+    #latest .footer .info-box .input-area:nth-of-type(1) {
+        padding: 21px;
+        margin-bottom: 10px;
+        
+    }
+    #latest .footer .info-box .input-area .fas {
+        position: relative;
+        top: 14px;
+        margin-left: 0;
+        float: left;
+        width: 15%;
+        text-align: center;
+    }
+    #latest .footer .info-box .input-area input {
+        width: 50%;
+        float: left;
+        position: relative;
+        top: 12px;
+    }
+    #latest .footer .info-box .input-area button {
+        width: 35%;
+        padding: 20px 0;
+        float: left;
+    }
 }
 /* Mobile Devices */
 @media only screen and (max-width: 767px) {
-    
+    #latest .header {
+        text-align: center;
+    }
+    #latest .header h1 {
+        font-size: 3rem;
+        text-align: center;
+        width: 100%;
+        max-width: none;
+    }
+    #latest .header .directions {
+        float: none;
+        display: inline-block;
+        position: static;
+        top: 0;
+        margin: 50px auto;
+    }
+    #latest .body {
+        padding: 100px 0;
+        padding-bottom: 0;
+    }
+    #latest .body .column {
+        width: 100%;
+        margin-bottom: 150px;
+    }
+    #latest .footer img {
+        width: 50%;
+    }
+    #latest .footer .info-box h2 {
+        color: #6066F2;
+        font-size: 3rem;
+        font-weight: 700;
+        text-transform: capitalize;
+        margin-bottom: 60px;
+    }
+    #latest .footer .info-box .input-area {
+        width: 100%;
+    }
+    #latest .footer .info-box .input-area:nth-of-type(1) {
+        padding: 21px;
+        margin-bottom: 10px;
+    }
+    #latest .footer .info-box .input-area .fas {
+        position: relative;
+        top: 14px;
+        margin-left: 0;
+        float: left;
+        width: 15%;
+        text-align: center;
+    }
+    #latest .footer .info-box .input-area input {
+        width: 50%;
+        float: left;
+        position: relative;
+        top: 12px;
+    }
+    #latest .footer .info-box .input-area button {
+        width: 35%;
+        padding: 20px 0;
+        float: left;
+    }
 }

@@ -79,5 +79,10 @@ header .header-buttons .orange-btn{
 }
 /* Mobile Devices */
 @media only screen and (max-width: 767px) {
-    
+    header .header-buttons {
+        display: inline-block;
+        position: relative;
+        top: 45px;
+        font-size: 12px;
+    }
 }
